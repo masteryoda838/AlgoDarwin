@@ -9,6 +9,8 @@ TodayDate = date.today()
 TestStartDate = (TodayDate + timedelta(-10)).strftime("%Y-%m-%d")
 EndDate = TodayDate.strftime("%Y-%m-%d")
 
+# comment added
+
 conn = lite.connect('c:\\caphttpdata\\algotrades.db') # wsl -> c:
 # conn = lite.connect('/home/fred/caphttpdata/algotrades.db') # Linux Cloud
 
